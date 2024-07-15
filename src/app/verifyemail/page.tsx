@@ -2,9 +2,6 @@
 import React,{ useEffect, useState} from 'react'
 import axios from 'axios'
 import Link from 'next/link'
-import { verify } from 'crypto'
-import { useRouter } from 'next/router'
-import { set } from 'mongoose'
 export default function VerifyEmailPage() {
 
     // const router = useRouter()
